@@ -15,12 +15,10 @@ export class AppComponent implements OnInit {
 
   videos: IVideos[] = []
 
-
   constructor(
     private iframeService: IframeService,
     public dialog: MatDialog
-  ) {
-  }
+  ) {}
 
   ngOnInit(): void {
     this.videos = this.iframeService.getAllVideos()

@@ -9,16 +9,12 @@ export class IframeService {
   autoplay: string = '?autoplay=1'
   videos: IVideos[] = [
     {
-      height: 315,
-      width: 560,
       src: 'https://www.youtube.com/embed/X-COen_FfuY' + this.autoplay,
       title: 'position',
       photo: 'assets/photo1.jpg'
     },
 
 	{
-		height: 315,
-    width: 560,
 		src: 'https://www.youtube.com/embed/hEgeYelU6rQ' + this.autoplay,
 		title: 'name',
     photo: 'assets/photo2.jpg'
