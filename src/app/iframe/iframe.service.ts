@@ -17,7 +17,7 @@ export class IframeService {
 	{
 		src: 'https://www.youtube.com/embed/hEgeYelU6rQ' + this.autoplay,
 		title: 'name',
-    photo: 'assets/photo2.jpg'
+    	photo: 'assets/photo2.jpg'
 	  }
   ]
 
